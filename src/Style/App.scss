@@ -1,0 +1,181 @@
+$google-blue: #4285f4;
+$button-active-blue: #1669f2;
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:500);
+
+.wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  .logo-wrapper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 12vh;
+    background-color: #fff;
+    margin-bottom: 10px;
+    box-shadow: 0px 15px 10px -15px #111;
+    img {
+      padding-top: 5px;
+
+      width: 250px;
+      height: 10vh;
+    }
+  }
+
+  .form-wrapper {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 40px 0px 40px;
+    margin: 0px auto 20px auto;
+    border-radius: 5px;
+    box-shadow: 0px 1px 5px rgb(156, 156, 156);
+    background-color: #ffffff;
+
+    .alternative {
+      text-align: center;
+    }
+
+    .signin-btn {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      margin-bottom: 20px;
+    }
+    .google-btn,
+    .facebook-btn {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      width: 45%;
+      height: 42px;
+      background-color: #fff;
+      border-radius: 2px;
+      box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.25);
+      .google-icon-wrapper,
+      .facebook-icon-wrapper {
+        margin-top: 1px;
+        margin-left: 1px;
+        width: 40px;
+        height: 40px;
+        border-radius: 2px;
+        background-color: #fff;
+      }
+      .google-icon,
+      .facebook-icon {
+        margin-top: 11px;
+        width: 18px;
+        height: 18px;
+      }
+      .btn-text {
+        color: #111;
+        font-size: 12px;
+        font-family: sans-serif, "Open Sans";
+        font-weight: lighter;
+      }
+      &:hover {
+        box-shadow: 0 0 6px $google-blue;
+      }
+      &:active {
+        background: $button-active-blue;
+      }
+    }
+
+    // .google-btn {
+    //   margin-right: 1px;
+    // }
+    // .facebook-btn {
+    //   margin-left: 1px;
+    // }
+
+    .heading {
+      text-align: center;
+      width: 100%;
+      color: #111;
+      font-family: sans-serif, "Open Sans";
+      text-transform: capitalize;
+      margin: 0px auto 20px auto;
+      h1 {
+        font-weight: lighter;
+        margin-bottom: 0px;
+      }
+      h3 {
+        font-weight: lighter;
+      }
+    }
+
+    label {
+      font-size: 0.8em;
+      margin-bottom: 0.25em;
+      color: #222;
+      font-weight: lighter;
+    }
+
+    input {
+      padding: 10px 10px;
+      border-radius: 5px;
+      outline: none;
+      border: 1px solid #cfcfcf;
+    }
+
+    input.error {
+      border: 1px solid red;
+    }
+
+    .errorMessage {
+      color: redl;
+      font-size: 0.75em;
+      display: relative;
+    }
+
+    form {
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      margin-top: 20px;
+    }
+
+    .firstName,
+    .lastName,
+    .email,
+    .password {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 15px;
+      width: 100%;
+    }
+    span {
+      margin: 0;
+      padding: 0;
+      border: 0;
+      font-size: 0.78em;
+      vertical-align: baseline;
+    }
+
+    .createAccount {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 20px auto 50px auto;
+
+      button {
+        background-color: rgb(113, 113, 243); /* Green */
+        border: none;
+        color: black;
+        padding: 10px 30px;
+        text-align: center;
+        text-decoration: none;
+        width: 100%;
+        font-size: 16px;
+      }
+    }
+  }
+}

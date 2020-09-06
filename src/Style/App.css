@@ -1,0 +1,242 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:500);
+.wrapper {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #ffffff;
+}
+
+.wrapper .logo-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  height: 12vh;
+  background-color: #fff;
+  margin-bottom: 10px;
+  -webkit-box-shadow: 0px 15px 10px -15px #111;
+          box-shadow: 0px 15px 10px -15px #111;
+}
+
+.wrapper .logo-wrapper img {
+  padding-top: 5px;
+  width: 250px;
+  height: 10vh;
+}
+
+.wrapper .form-wrapper {
+  width: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 0px 40px 0px 40px;
+  margin: 0px auto 20px auto;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 1px 5px #9c9c9c;
+          box-shadow: 0px 1px 5px #9c9c9c;
+  background-color: #ffffff;
+}
+
+.wrapper .form-wrapper .alternative {
+  text-align: center;
+}
+
+.wrapper .form-wrapper .signin-btn {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.wrapper .form-wrapper .google-btn,
+.wrapper .form-wrapper .facebook-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 45%;
+  height: 42px;
+  background-color: #fff;
+  border-radius: 2px;
+  -webkit-box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.25);
+          box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+.wrapper .form-wrapper .google-btn .google-icon-wrapper,
+.wrapper .form-wrapper .google-btn .facebook-icon-wrapper,
+.wrapper .form-wrapper .facebook-btn .google-icon-wrapper,
+.wrapper .form-wrapper .facebook-btn .facebook-icon-wrapper {
+  margin-top: 1px;
+  margin-left: 1px;
+  width: 40px;
+  height: 40px;
+  border-radius: 2px;
+  background-color: #fff;
+}
+
+.wrapper .form-wrapper .google-btn .google-icon,
+.wrapper .form-wrapper .google-btn .facebook-icon,
+.wrapper .form-wrapper .facebook-btn .google-icon,
+.wrapper .form-wrapper .facebook-btn .facebook-icon {
+  margin-top: 11px;
+  width: 18px;
+  height: 18px;
+}
+
+.wrapper .form-wrapper .google-btn .btn-text,
+.wrapper .form-wrapper .facebook-btn .btn-text {
+  color: #111;
+  font-size: 12px;
+  font-family: sans-serif, "Open Sans";
+  font-weight: lighter;
+}
+
+.wrapper .form-wrapper .google-btn:hover,
+.wrapper .form-wrapper .facebook-btn:hover {
+  -webkit-box-shadow: 0 0 6px #4285f4;
+          box-shadow: 0 0 6px #4285f4;
+}
+
+.wrapper .form-wrapper .google-btn:active,
+.wrapper .form-wrapper .facebook-btn:active {
+  background: #1669f2;
+}
+
+.wrapper .form-wrapper .heading {
+  text-align: center;
+  width: 100%;
+  color: #111;
+  font-family: sans-serif, "Open Sans";
+  text-transform: capitalize;
+  margin: 0px auto 20px auto;
+}
+
+.wrapper .form-wrapper .heading h1 {
+  font-weight: lighter;
+  margin-bottom: 0px;
+}
+
+.wrapper .form-wrapper .heading h3 {
+  font-weight: lighter;
+}
+
+.wrapper .form-wrapper label {
+  font-size: 0.8em;
+  margin-bottom: 0.25em;
+  color: #222;
+  font-weight: lighter;
+}
+
+.wrapper .form-wrapper input {
+  padding: 10px 10px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid #cfcfcf;
+}
+
+.wrapper .form-wrapper input.error {
+  border: 1px solid red;
+}
+
+.wrapper .form-wrapper .errorMessage {
+  color: redl;
+  font-size: 0.75em;
+  display: relative;
+}
+
+.wrapper .form-wrapper form {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.wrapper .form-wrapper .firstName,
+.wrapper .form-wrapper .lastName,
+.wrapper .form-wrapper .email,
+.wrapper .form-wrapper .password {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+.wrapper .form-wrapper span {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 0.78em;
+  vertical-align: baseline;
+}
+
+.wrapper .form-wrapper .createAccount {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 20px auto 50px auto;
+}
+
+.wrapper .form-wrapper .createAccount button {
+  background-color: #7171f3;
+  /* Green */
+  border: none;
+  color: black;
+  padding: 10px 30px;
+  text-align: center;
+  text-decoration: none;
+  width: 100%;
+  font-size: 16px;
+}
+/*# sourceMappingURL=App.css.map */
