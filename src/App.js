@@ -44,12 +44,19 @@ class App extends Component {
         password: this.state.password,
       })
       .then((response) => {
-        return response.json;
-      })
-      .then((response) => {
-        console.log(response.json);
+        console.log(response);
+        if (response.status >= 201) {
+          alert("User created");
+          this.setState({
+            firstName: "",
+            lastName: "",
+            email: "",
+            password: "",
+          });
+        }
       })
       .catch((error) => {
+        alert("Error occured");
         console.log(error);
       });
   };
