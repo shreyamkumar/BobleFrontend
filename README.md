@@ -1,5 +1,11 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+
+
+## RUN npm init , this command can be used to set up a new or existing npm package
+## RUN npm install , this command pulls out all the require node modules
+## RUN npm run build, this command will create a build folder for you
+
 ## Available Scripts
 
 In the project directory, you can run:
